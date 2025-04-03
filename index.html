@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Comunidade São Lourenço</title>
+</head>
+
+<body>
+    <div id="customAlert" class="alert-modal">
+        <div class="alert-content">
+            <span id="closeAlertBtn" class="close-btn">&times;</span>
+            <p id="alertMessage">Ops!<br>escala ainda não disponível</p>
+        </div>
+    </div>
+    <img src="imagens/logo.jpeg" class="logo" alt="logo"><br>
+    <h3>Comunidade São Lourenço</h3>
+    <h2>Acólitos e Coroinhas</h2>
+    <div class="button-container">
+        <button class="Buttons" onclick="showContent('folhetos')">
+            Folhetos
+            <hr>
+        </button>
+        <p>|</p>
+        <button class="Buttons" onclick="showContent('escalas')">
+            Escalas
+            <hr>
+        </button>
+    </div>
+    <div id="folhetosContent" class="content hidden">
+        <strong>
+            <p>Folhetos</p>
+        </strong><br>
+        <div class="div-folhetos-1">
+            <h1 class="text-folhetos-1">06-abr-2025</h1>
+            <a href="folhetos/06-abr-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-1">Baixar </button></a>
+        </div>
+        <h1 class="h2">Ops! Não temos mais folhetos do mês de Abril 😞</h1>
+    </div>
+    <div id="escalasContent" class="content hidden">
+        <strong>
+            <p>Escalas</p>
+        </strong><br>
+        <div class="div-escala-abril">
+            <h1 class="text-escala-abril">Abril - 2025</h1><br>
+            <a href="#">
+                <button class="button-escala-abril" id="showAlertBtn">
+                    Acessar
+                </button>
+                <!--<button class="button-escala-fevereiro">Acessar</button>-->
+            </a>
+        </div>
+    </div>
+    <div id="defaultImage" class="default-image">
+        <img src="imagens/quaresma.jpg" alt="Imagem padrão" style="width: 100%; max-width: 600px;">
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/openModal.js"></script>
+    <script src="scripts/showContent.js"></script>
+</body>
+
+</html>
