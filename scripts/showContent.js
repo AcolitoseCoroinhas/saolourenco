@@ -1,6 +1,7 @@
 function showContent(contentId) {
     const content = document.getElementById(contentId + 'Content');
     const defaultImage = document.getElementById('defaultImage');
+    const programacao = document.getElementById('programacao');
     const buttons = document.querySelectorAll('.Buttons');
 
     buttons.forEach(button => {
@@ -10,6 +11,7 @@ function showContent(contentId) {
     if (!content.classList.contains('hidden')) {
         content.classList.add('hidden');
         defaultImage.style.display = 'block';
+        programacao.style.display = 'block';
         document.body.style.height = 'auto';
         localStorage.removeItem('activeContent');
     } else {
@@ -17,6 +19,7 @@ function showContent(contentId) {
             content.classList.add('hidden');
         });
         defaultImage.style.display = 'none';
+        programacao.style.display = 'none';
         content.classList.remove('hidden');
         document.body.style.height = `${content.scrollHeight + 200}px`;
         localStorage.setItem('activeContent', contentId);
