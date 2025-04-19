@@ -60,17 +60,22 @@ h2 {
     border-radius: 5px;
 }
 
-.active-Buttons {
-    border: black;
-    background-color: rgba(0, 0, 0, 0.918);
-}
-
 p {
     color: rgba(97, 97, 97, 0.938);
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 10px 0;
+}
+
+.folhetos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .div-folhetos-1,
@@ -112,7 +117,7 @@ p {
     height: 60px;
     width: 150px;
     font-size: 1.2em;
-    background-color: rgb(214, 214, 214);
+    background-color: #c5ae2e;
     border: none;
     cursor: pointer;
     color: #000000e1;
@@ -131,42 +136,56 @@ p {
         width: 95%;
     }
 
+    .button-folhetos-1,
+    .button-folhetos-2,
+    .button-folhetos-3,
+    .button-folhetos-4,
+    .button-folhetos-5,
+    .button-folhetos-6 {
+        height: 60px;
+    }
+}
+
+.escalas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .div-escala-abril {
-    height: 170px;
-    width: 320px;
+    height: 7vh;
+    width: 330px;
     max-width: 500px;
-    margin: 1vh auto;
+    margin-bottom: 1px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(88, 88, 88, 0.952);
+    border: 1px solid rgb(196, 196, 196);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
+    padding: 0 10px;
 }
 
 .text-escala-abril {
-    color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.3em;
-    margin-bottom: 1vh;
-    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2em;
 }
 
 .button-escala-abril {
-    height: 50px;
-    width: 150%;
-    margin-left: -33%;
-    border-radius: 5px;
-    font-size: 1.1em;
-    background-color: rgb(214, 214, 214);
+    height: 62px;
+    width: 150px;
+    font-size: 1.2em;
+    background-color: #c5ae2e;
     border: none;
-    color: #000000e1;
-    bottom: 10px;
     cursor: pointer;
+    color: #f7f7f7e1;
+    border-radius: 5px;
+    margin-left: 9%;
 }
 
 .img {
@@ -191,8 +210,8 @@ hr {
 }
 
 .active-hr {
-    border: rgb(162, 0, 255, 0.932);
-    background-color: rgba(162, 0, 255, 0.932);
+    border: #c5ae2e;
+    background-color: #c5ae2e;
 }
 
 .h2 {
