@@ -82,8 +82,7 @@ p {
 .div-folhetos-2,
 .div-folhetos-3,
 .div-folhetos-4,
-.div-folhetos-5,
-.div-folhetos-6 {
+.div-folhetos-5 {
     height: 7vh;
     width: 330px;
     max-width: 500px;
@@ -101,8 +100,7 @@ p {
 .text-folhetos-2,
 .text-folhetos-3,
 .text-folhetos-4,
-.text-folhetos-5,
-.text-folhetos-6 {
+.text-folhetos-5 {
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.2em;
@@ -112,8 +110,7 @@ p {
 .button-folhetos-2,
 .button-folhetos-3,
 .button-folhetos-4,
-.button-folhetos-5,
-.button-folhetos-6 {
+.button-folhetos-5 {
     height: 60px;
     width: 150px;
     font-size: 1.2em;
@@ -131,8 +128,7 @@ p {
     .div-folhetos-2,
     .div-folhetos-3,
     .div-folhetos-4,
-    .div-folhetos-5,
-    .div-folhetos-6 {
+    .div-folhetos-5 {
         width: 95%;
     }
 
@@ -140,8 +136,7 @@ p {
     .button-folhetos-2,
     .button-folhetos-3,
     .button-folhetos-4,
-    .button-folhetos-5,
-    .button-folhetos-6 {
+    .button-folhetos-5 {
         height: 60px;
     }
 }
@@ -156,7 +151,7 @@ p {
     margin-left: 10px;
 }
 
-.div-escala-abril {
+.div-escala-maio {
     height: 7vh;
     width: 330px;
     max-width: 500px;
@@ -170,13 +165,13 @@ p {
     padding: 0 10px;
 }
 
-.text-escala-abril {
+.text-escala-maio {
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.2em;
 }
 
-.button-escala-abril {
+.button-escala-maio {
     height: 62px;
     width: 150px;
     font-size: 1.2em;
